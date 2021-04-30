@@ -11,5 +11,7 @@ namespace Lab_5
             Junior, Medium, High, Expert
         }
         public abstract void EnterCategory();
+
+        public abstract void StartWork();
     }
 }

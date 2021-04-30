@@ -17,6 +17,11 @@ namespace Lab_5
             Console.WriteLine($"{CategoryS}");
         }
 
+        public override void StartWork()
+        {
+            base.StartWork();
+        }
+
         public override void EnterCategory()
         {
             Console.WriteLine("Enter Category\n0: Junior\n1: Medium\n2: High\n3: Expert");

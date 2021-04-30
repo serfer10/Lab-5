@@ -23,6 +23,19 @@ namespace Lab_5
             Console.WriteLine("You dont have Category");
         }
 
+        public override void StartWork()
+        {
+            
+            Console.WriteLine("its time to work");
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine("You have worked 2 hours....");
+                Console.ReadKey();
+            }
+            Console.WriteLine("Have a nice day");
+            Console.ReadKey();
+        }
+
         private int age;
         private string firstName;
         private string lastName;

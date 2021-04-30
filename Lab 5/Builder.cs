@@ -14,6 +14,11 @@ namespace Lab_5
             CategoryS=($"{Enum.GetName(typeof(Category),CategBuf)}");
         }
 
+        public override void StartWork()
+        {
+            base.StartWork();
+        }
+
         public override void ShowCategory()
         {
             Console.WriteLine($"{CategoryS}");
